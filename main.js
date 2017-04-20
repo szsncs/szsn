@@ -54,7 +54,7 @@ var getRegistrationID = function() {
 };
 var onGetRegistrationID = function(data) {
     try {
-        console.log(data);
+        alert(data);
         if (data.length == 0) {
             var t1 = window.setTimeout(getRegistrationID, 1000);
         }
