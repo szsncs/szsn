@@ -1,7 +1,7 @@
 //here is your code...
 summerready = function () {
 		  // =========================PhoneGap================================== 
-        // 等待加载PhoneGap 
+        // 等待加载PhoneGap方法 
         document.addEventListener("deviceready", onDeviceReady, false); 
         // PhoneGap加载完毕 
         function onDeviceReady() { 
